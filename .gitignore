@@ -1,0 +1,7 @@
+embedded/CNN
+
+*__pycache__
+
+training/Mod/data/mini_speech_commands
+training/preprocessing/internet
+training/preprocessing/noise
