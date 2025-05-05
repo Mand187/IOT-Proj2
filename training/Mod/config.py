@@ -14,6 +14,7 @@ I16MAX = 2**15-1
 FSAMP = 16000  # sampling rate
 WAVE_LENGTH_MS = 1000  # 1000 => 1 sec of audio
 WAVE_LENGTH_SAMPS = int(WAVE_LENGTH_MS*FSAMP/1000)
+print(f"Wave length in samples: {WAVE_LENGTH_SAMPS}")
 
 # Feature extraction parameters
 WINDOW_SIZE_MS = 64
